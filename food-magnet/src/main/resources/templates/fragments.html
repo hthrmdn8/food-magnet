@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org/">
+
+<head th:fragment="head">
+
+    <!-- Bootstrap stylesheets  -->
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" />
+    <link th:href="@{/css/restaurant.css}" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+<div th:fragment="page-header" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a th:href="@{/}" class="navbar-brand">FoodMagnet</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li><a th:href="@{/}">Home</a></li>
+                <li><a th:href="@{/city}">Cities</a></li>
+                <li><a th:href="@{/search}">Search</a></li>
+                <li><a th:href="@{/login}">Login</a></li>
+                <li><a th:href="@{/logout}">Logout</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
