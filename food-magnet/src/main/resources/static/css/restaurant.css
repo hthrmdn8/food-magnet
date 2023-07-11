@@ -1,0 +1,38 @@
+.body-content {
+    margin-top: 72px;
+}
+
+td, th {
+    padding: 10px;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    vertical-align: top;
+}
+
+
+label {
+    margin-right: 15px;
+}
+
+.centered {
+    text-align: center;
+}
+
+p {
+    vertical-align: top;
+    margin-left: 30px;
+}
+
+.centeredTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.default{
+margin-top:100px;
+}
